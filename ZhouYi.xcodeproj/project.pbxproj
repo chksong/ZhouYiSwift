@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B079FDA51C1928970099E518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B079FDA41C1928970099E518 /* AppDelegate.swift */; };
-		B079FDA71C1928970099E518 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B079FDA61C1928970099E518 /* ViewController.swift */; };
 		B079FDAA1C1928970099E518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B079FDA81C1928970099E518 /* Main.storyboard */; };
 		B079FDAC1C1928970099E518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B079FDAB1C1928970099E518 /* Assets.xcassets */; };
 		B079FDAF1C1928970099E518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B079FDAD1C1928970099E518 /* LaunchScreen.storyboard */; };
@@ -17,6 +16,9 @@
 		B079FDD31C1979170099E518 /* DetailGuaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B079FDD21C1979170099E518 /* DetailGuaViewController.swift */; };
 		B079FDD71C197AC50099E518 /* BaguaImgUIVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = B079FDD61C197AC50099E518 /* BaguaImgUIVIew.swift */; };
 		B079FDD91C1A7BCF0099E518 /* NaJiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B079FDD81C1A7BCF0099E518 /* NaJiaViewController.swift */; };
+		B88BCE611C8E87460099B63B /* ListItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88BCE601C8E87460099B63B /* ListItemViewController.swift */; };
+		B88BCE671C8ED8FC0099B63B /* ListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88BCE661C8ED8FC0099B63B /* ListItemTableViewCell.swift */; };
+		B8C35B9E1C8FC9D000124AD6 /* commInc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C35B9D1C8FC9D000124AD6 /* commInc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 /* Begin PBXFileReference section */
 		B079FDA11C1928970099E518 /* ZhouYi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhouYi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B079FDA41C1928970099E518 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B079FDA61C1928970099E518 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B079FDA91C1928970099E518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B079FDAB1C1928970099E518 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B079FDAE1C1928970099E518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +54,9 @@
 		B079FDD21C1979170099E518 /* DetailGuaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailGuaViewController.swift; sourceTree = "<group>"; };
 		B079FDD61C197AC50099E518 /* BaguaImgUIVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaguaImgUIVIew.swift; path = ../BaguaImgUIVIew.swift; sourceTree = "<group>"; };
 		B079FDD81C1A7BCF0099E518 /* NaJiaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaJiaViewController.swift; sourceTree = "<group>"; };
+		B88BCE601C8E87460099B63B /* ListItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemViewController.swift; sourceTree = "<group>"; };
+		B88BCE661C8ED8FC0099B63B /* ListItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemTableViewCell.swift; sourceTree = "<group>"; };
+		B8C35B9D1C8FC9D000124AD6 /* commInc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commInc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,13 +109,15 @@
 			children = (
 				B079FDD61C197AC50099E518 /* BaguaImgUIVIew.swift */,
 				B079FDA41C1928970099E518 /* AppDelegate.swift */,
-				B079FDA61C1928970099E518 /* ViewController.swift */,
+				B88BCE601C8E87460099B63B /* ListItemViewController.swift */,
+				B88BCE661C8ED8FC0099B63B /* ListItemTableViewCell.swift */,
 				B079FDD21C1979170099E518 /* DetailGuaViewController.swift */,
 				B079FDA81C1928970099E518 /* Main.storyboard */,
 				B079FDD81C1A7BCF0099E518 /* NaJiaViewController.swift */,
 				B079FDAB1C1928970099E518 /* Assets.xcassets */,
 				B079FDAD1C1928970099E518 /* LaunchScreen.storyboard */,
 				B079FDB01C1928970099E518 /* Info.plist */,
+				B8C35B9D1C8FC9D000124AD6 /* commInc.swift */,
 			);
 			path = ZhouYi;
 			sourceTree = "<group>";
@@ -267,9 +273,11 @@
 			files = (
 				B079FDD31C1979170099E518 /* DetailGuaViewController.swift in Sources */,
 				B079FDD71C197AC50099E518 /* BaguaImgUIVIew.swift in Sources */,
+				B88BCE671C8ED8FC0099B63B /* ListItemTableViewCell.swift in Sources */,
 				B079FDD91C1A7BCF0099E518 /* NaJiaViewController.swift in Sources */,
-				B079FDA71C1928970099E518 /* ViewController.swift in Sources */,
+				B88BCE611C8E87460099B63B /* ListItemViewController.swift in Sources */,
 				B079FDA51C1928970099E518 /* AppDelegate.swift in Sources */,
+				B8C35B9E1C8FC9D000124AD6 /* commInc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +502,7 @@
 				B079FDCB1C1928970099E518 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B079FDCC1C1928970099E518 /* Build configuration list for PBXNativeTarget "ZhouYiTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +511,7 @@
 				B079FDCE1C1928970099E518 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B079FDCF1C1928970099E518 /* Build configuration list for PBXNativeTarget "ZhouYiUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +520,7 @@
 				B079FDD11C1928970099E518 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
