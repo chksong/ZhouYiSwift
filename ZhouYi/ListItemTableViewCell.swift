@@ -9,14 +9,19 @@
 import UIKit
 
 class ListItemTableViewCell: UITableViewCell {
-
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
-        super.init(style: .Default, reuseIdentifier: reuseIdentifier)
-    }
-
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
+    
+    // 挂的ImageView
+    
+    @IBOutlet weak var guaView: BaguaImgUIVIew!
+//    去掉默认的风格，使用自定义的风格
+    
+//    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+//        super.init(style: .Default, reuseIdentifier: reuseIdentifier)
+//    }
+//
+//    required init?(coder aDecoder: NSCoder) {
+//        fatalError("init(coder:) has not been implemented")
+//    }
  
     override func awakeFromNib() {
         super.awakeFromNib()

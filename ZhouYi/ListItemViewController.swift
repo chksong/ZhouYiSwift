@@ -24,7 +24,7 @@ class ListItemViewController: UIViewController, UITableViewDataSource , UITableV
         tableview.dataSource = self
         tableview.delegate = self
         
-        tableview.registerClass(ListItemTableViewCell.self, forCellReuseIdentifier: "Cell")
+     //    tableview.registerClass(ListItemTableViewCell.self, forCellReuseIdentifier: "Cell")
         tableview.tableFooterView = UIView()
         
     
@@ -56,9 +56,9 @@ class ListItemViewController: UIViewController, UITableViewDataSource , UITableV
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)  as! ListItemTableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("GuaItemCell", forIndexPath: indexPath)  as! ListItemTableViewCell
         
-        cell.textLabel?.text = guaItems?[indexPath.row].GuaName
+       // cell.textLabel?.text = guaItems?[indexPath.row].GuaName
         
         return cell
     }
