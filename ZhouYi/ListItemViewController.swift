@@ -19,7 +19,10 @@ class ListItemViewController: UIViewController, UITableViewDataSource , UITableV
 
         // Do any additional setup after loading the view.
         
-        self.guaItems = [GuaItem(id: 1, name: "乾"),GuaItem(id: 2, name: "坤")]
+        self.guaItems = [
+               GuaItem(id: 1, name: "乾" ,drawId: 63),
+                GuaItem(id: 2, name: "坤" ,drawId: 0),
+                GuaItem(id: 3, name: "垢" ,drawId: 62)]
 
         tableview.dataSource = self
         tableview.delegate = self
@@ -59,6 +62,7 @@ class ListItemViewController: UIViewController, UITableViewDataSource , UITableV
         let cell = tableView.dequeueReusableCellWithIdentifier("GuaItemCell", forIndexPath: indexPath)  as! ListItemTableViewCell
         
        // cell.textLabel?.text = guaItems?[indexPath.row].GuaName
+        cell.guaView.drawId = guaItems![indexPath.row].DrawID
         
         return cell
     }

@@ -10,11 +10,13 @@ import Foundation
 
 
 struct GuaItem {
-    var WenWangID : Int
+    var WenWangID : Int = 0
+    var DrawID   :Int = 0
     var GuaName : String
     
-    init(id : Int, name:String) {
+    init(id : Int, name:String ,drawId:Int) {
         self.WenWangID = id
         self.GuaName = name
+        self.DrawID = drawId
     }
 }
