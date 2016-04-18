@@ -30,7 +30,8 @@ class ListItemTableViewCell: UITableViewCell {
 
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        
+        self.backgroundColor = UIColor.brownColor()
         // Configure the view for the selected state
     }
 

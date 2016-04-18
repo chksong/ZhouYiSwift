@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AB8D5F57-E1AB-4270-AD1A-CA71FB01E719</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D198F7E8B61D8DF8DDEA425A369C338A1B6C624D</key>
+		<string>https://github.com/chksong/ZhouYiSwift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZhouYi.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D198F7E8B61D8DF8DDEA425A369C338A1B6C624D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/chksong/ZhouYiSwift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D198F7E8B61D8DF8DDEA425A369C338A1B6C624D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D198F7E8B61D8DF8DDEA425A369C338A1B6C624D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZhouYi</string>
+		</dict>
+	</array>
+</dict>
+</plist>
